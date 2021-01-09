@@ -23,6 +23,10 @@ typedef enum Levels
     EAlert
 } Levels;
 
+/**
+ * @brief Struct for transmission of logs via Ethernet
+ */
+
 typedef struct LogStruct
 {
     char level[SIXTEEN_BYTES];
