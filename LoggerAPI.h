@@ -2,18 +2,20 @@
 #define LOGGERAPI_LOGGERAPI_H
 
 /**
- * Macros
+ * @brief Macros
  * */
 #define LOG(level, message) LOGGER(level, message, __FILE__, __TIME__, __LINE__, __FUNCTION__)
 
 /**
- * Constants
- * */
-
+ * @brief Constants
+ **/
 #define MAX_SIZE_STRING 256
 #define SIXTEEN_BYTES 16
 #define EIGHT_BYTES 8
 
+/**
+ * @brief All possible levels to log
+ */
 typedef enum Levels
 {
     EInfo,
@@ -26,7 +28,6 @@ typedef enum Levels
 /**
  * @brief Struct for transmission of logs via Ethernet
  */
-
 typedef struct LogStruct
 {
     char level[SIXTEEN_BYTES];
@@ -37,6 +38,9 @@ typedef struct LogStruct
     char function[SIXTEEN_BYTES];
 } LogStruct;
 
+/**
+ * @brief Look up table for Levels enum
+ */
 static const char *LevelsLUT[5] = {"Info",
                                    "Trace",
                                    "Warning",
