@@ -2,6 +2,26 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="Linux VM (3bcc6958-90f7-41cd-80a5-7b4c68bf2018)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/LoggerAPI" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-windows" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-linuxvm" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-mingw" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="Linux VM (d67498eb-1d18-4893-bba0-e43967c52c27)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="WSL (589a3780-b029-4b63-a0fc-ef11baf6c8b5)">
         <serverdata>
           <mappings>
